@@ -1,209 +1,78 @@
-import Head from 'next/head'
-
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+    <div>
+        <div className="text-gray-700 mt-1.5 mb-2.5 text-center font-bold text-2xl">
+            <p className="">Үйлчилгээ</p>
         </div>
-      </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
-      </footer>
-
-      <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
+        <div className="flex justify-between w-full py-16 bg-gradient-to-r from-indigo-850 to-teal-550">
+            <div className="text-white pr-7 w-1/2 ">
+                <p className="text-4xl font-bold mt-1.5">Хүчтэй шийдлүүдийг хурдан бүтээгээрэй...</p>
+                <p className="mt-3">Ажлын ирээдүй нь дижитал бөгөөд бүх хэмжээний бизнесүүд хурдан өөрчлөгдөх ёстой. I Developer нь өгөгдлийн удирдлага, ажлын урсгалын автоматжуулалт, бизнесийн мэдээллийн бүх хэрэгцээг нэг дор нэгтгэх хүчийг танд өгдөг бага кодтой програм хөгжүүлэх платформ юм.</p>
+            </div>
+            <div className="flex justify-center w-1/2 pr-7">
+                <img className="w-full h-full object-cover object-center max-w-sm " src="https://res.cloudinary.com/dzih5nqhg/image/upload/v1643620828/interactive.mn/image_179_x5phrx.png"/>
+            </div>
+        </div>
+        <div className="text-gray-700 mt-1.5 mb-2.5 text-center font-bold text-2xl">
+            <p className="">Манай платформыг ашигладаг шилдэг компаниуд</p>
+        </div>
+        <div className="text-gray-700 mt-1.5 mb-2.5 text-center font-bold text-2xl">
+            <p className="">Манай платформыг ашигладаг шилдэг компаниуд</p>
+        </div>
+        <div className="flex justify-between w-full py-16">
+            <div className="flex justify-center w-1/2 pr-7">
+                <img className="w-full h-full object-cover object-center" src="https://res.cloudinary.com/dzih5nqhg/image/upload/v1643630503/interactive.mn/image_183_vjf0vq.png"/>
+            </div>
+            <div className="pr-7 w-1/2 ">
+                <p className="text-4xl font-bold mt-1.5">Түргэвчилсэн хөгжүүлэлт</p>
+                <p className="mt-3">I Developer платформыг ашигласнаар та уламжлалт хөгжүүлэлтийн аргын дагуу төслийн урт хугацааны хуваарийг зарцуулах шаардлагагүйгээр захиалгат бизнесийн програмуудыг бүтээх чадвартай болно.</p>
+            </div>
+        </div>
+        <div className="flex justify-between w-full py-16">
+            <div className="pr-7 w-1/2 ">
+                <p className="text-4xl font-bold mt-1.5">Хялбаршуулсан автоматжуулалт</p>
+                <p className="mt-3">Бизнесийн үйл явцыг автоматжуулах нь хэзээ ч ийм амархан байгаагүй. I Developer-ийн код багатай чадварууд нь ажлын урсгалыг нүдээр үүсгэх боломжийг олгодог бөгөөд бүх үйл явцыг хялбаршуулдаг.</p>
+            </div>
+            <div className="flex justify-center w-1/2 pr-7">
+                <img className="w-full h-full object-cover object-center" src="https://res.cloudinary.com/dzih5nqhg/image/upload/v1643630832/interactive.mn/image_91_uglieg.png"/>
+            </div>
+        </div>
+        <div className="flex justify-between w-full py-16">
+            <div className="flex justify-center w-1/2 pr-7">
+                <img className="w-full h-full object-cover object-center" src="https://res.cloudinary.com/dzih5nqhg/image/upload/v1643688638/interactive.mn/Group_6942_ndlqyf.png"/>
+            </div>
+            <div className="pr-7 w-1/2 ">
+                <p className="text-4xl font-bold mt-1.5">Дээд зэргийн аюулгүй байдал</p>
+                <p className="mt-3">Өгөгдөл бол бизнес бүрийн хамгийн үнэ цэнэтэй хөрөнгө бөгөөд таны мэдээллийн аюулгүй байдал бидний нэн тэргүүний зорилт юм. Ийм учраас бид таны өгөгдлийг амарч байх, дамжуулах, нөөцлөх үед AES_CBC/AES_GCM, 256 бит/128 битийн түлхүүр, TLS 1.2 протокол зэрэг хүчтэй шифрээр шифрлэдэг.</p>
+            </div>
+        </div>
+        <div className="relative">
+            <img className="w-full h-full object-cover object-center" src="https://res.cloudinary.com/dzih5nqhg/image/upload/v1643689552/interactive.mn/photo-1574790398664-0cb03682ed1c_cl3ihs.jpg"/>
+            <div className="absolute top-0 container mx-auto inset-0">
+                <p className="font-bold text-2xl ">Developer community programs test</p>
+                <p className="text-gray-700">Find, connect, build. Join a developer community today.</p>
+            </div>
+        </div>
+        <div className="text-gray-700 my-16 text-center font-bold text-2xl">
+            <p className="">Манай платформыг ашигладаг шилдэг компаниуд</p>
+        </div>
+        <div className="py-16 text-center font-bold bg-gray-200">
+            <p className="text-gray-700 text-2xl">Бизнесийн бүрэн хэрэглээний програмууд</p>
+            <p className="text-sm text-gray-500 my-3">Урьдчилан бүтээсэн. Хэрэглэхэд бэлэн.</p>
+        </div>
+        <div className="py-16 text-center font-bold">
+            <p className="text-gray-700 text-2xl">Хөгжүүлэгчийн бүлгэмээ олоорой</p>
+            <p className="text-sm text-gray-500 my-3">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus</p>
+        </div>
+        <div className="container mx-auto text-center font-bold bg-gray-100 mb-5">
+            <p className="text-gray-700 text-2xl">Түгээмэл асуултууд</p>
+            <p className="text-sm text-gray-500 my-3">Энэ бол description</p>
+            <div className="flex justify-around text-gray-700 text-2xl">
+                <p className="bg-white py-3 px-6">Account Overview</p>
+                <p className="bg-white py-3 px-6">Subscription Plans</p>
+                <p className="bg-white py-3 px-6">Payment Options</p>
+            </div>
+        </div>
     </div>
   )
 }
